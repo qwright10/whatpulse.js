@@ -1,0 +1,40 @@
+{
+  "name": "whatpulse.js",
+  "version": "1.0.0",
+  "description": "A basic API wrapper for the WhatPulse API.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qwright10/whatpulse.js.git"
+  },
+  "keywords": [
+    "whatpulse",
+    "api"
+  ],
+  "author": "Quentin Wright <wrightq00@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qwright10/whatpulse.js/issues"
+  },
+  "homepage": "https://github.com/qwright10/whatpulse.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.9",
+    "@types/node-fetch": "^2.5.7",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.13.0",
+    "eslint-config-marine": "^7.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.2.0",
+    "tslib": "^2.0.3"
+  }
+}
