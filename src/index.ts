@@ -131,7 +131,7 @@ export interface AccountTotals {
 
 export interface UnpulsedStats {
 	clicks: number;
-	downlaod: number;
+	download: number;
 	keys: number;
 	upload: number;
 	uptime: number;
